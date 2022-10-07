@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in forms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+
+        <div class="nav-menu">
+            <h1>Rod<span>Line</span></h1>
+        </div>
+        <div class="nav-menu1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+           
+        <div class="nav-menu2">
+            <ul>
+                <li><a href="#">English</a></li>
+                <li id="cta1"><a href="index.html">Sign in</a></li>
+                <li id="cta2"><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <div class="main">
+       <div class="main1">
+        <h1><span>Sign In</span> to Recharge Direct</h1>
+        <p>if you don’t an account<br> you can <a href="register.html">Register here!</a></p>
+       </div>
+
+       <div class="main2">
+        <img src="images/image.png" alt="banner">
+       </div>
+
+       <div class="main3">
+         <form action="#" method="get">
+              <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <span id="span1"></span>
+              <input type="password" name="password" id="password" placeholder="Enter your password">
+              <span id="span2"></span>
+              <p id="recover-pswd"><a href="#">Recover password?</a></p>
+
+              <button type="submit" id="submit">Sign In</button>
+ 
+         </form>
+
+        <h6> Or Continue with</h6>
+         <div class="icons">
+            <a href="#" id="icon1"><img src="images/google.png" alt="icon"></a>
+            <a href="#" id="icon2"><img src="images/apple.png" alt="icon"></a>
+            <a href="#" id="icon3"><img src="images/facebook.png" alt="icon"></a>
+         </div>
+       </div>
+    </div>
+     <script src="file.js"></script>
+</body>
+</html>
